@@ -173,26 +173,7 @@ app.listen(port, () => {
     });
 });
 
-// const express = require('express')
-// const bodyParser = require("body-parser")
 
-// const app = express()
-// const port = process.env.PORT || 5000
-
-// app.use(bodyParser.json())
-
-// app.get('/', (request, response) => {
-//   response.send('Hello World!')
-// })
-
-// app.post("/personnel", (request, response) => {
-//   collection.insert(request.body, (error, result) => {
-//       if(error) {
-//           return response.status(500).send(error);
-//       }
-//       response.send(result.result);
-//   });
-// });
 
 // app.listen(port, () => {
 //   console.log(`Example app listening at http://localhost:${port}`)
