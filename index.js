@@ -173,39 +173,3 @@ app.listen(port, () => {
     });
 });
 
-// const express = require('express')
-// const bodyParser = require("body-parser")
-
-// const app = express()
-// const port = process.env.PORT || 5000
-
-// app.use(bodyParser.json())
-
-// app.get('/', (request, response) => {
-//   response.send('Hello World!')
-// })
-
-// app.post("/personnel", (request, response) => {
-//   collection.insert(request.body, (error, result) => {
-//       if(error) {
-//           return response.status(500).send(error);
-//       }
-//       response.send(result.result);
-//   });
-// });
-
-// app.listen(port, () => {
-//   console.log(`Example app listening at http://localhost:${port}`)
-// })
-
-
-// const express = require('express')
-// const path = require('path')
-// const PORT = process.env.PORT || 5000
-
-// express()
-//   .use(express.static(path.join(__dirname, 'public')))
-//   .set('views', path.join(__dirname, 'views'))
-//   .set('view engine', 'ejs')
-//   .get('/', (req, res) => res.render('pages/index'))
-//   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
